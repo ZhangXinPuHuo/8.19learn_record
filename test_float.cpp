@@ -6,7 +6,7 @@ int main()
 	float diameter = 0.0f;
 	float circumference = 0.0f;
 	float area = 0.0f;
-	float Pi = 3.14159265f;
+	const float Pi = 3.14159265f;
 
 	printf("Input the diameter of the table:");
 	scanf("%f", &diameter);
